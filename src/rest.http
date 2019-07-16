@@ -1,0 +1,35 @@
+GET https://tongshi049.github.io/
+
+###
+POST https://......
+Content-Type: application/json
+
+{
+    "key1": "value1",
+    "key2": "value2"
+}
+
+###
+GET {{host}}/banners?icode={{icode}} HTTP/1.1
+
+###
+GET {{host}}/tabs?icode=7028DDD5F7B70112 HTTP/1.1
+
+###
+GET {{host}}/channels?icode={{icode}} HTTP/1.1
+
+###
+GET {{host}}/ads?categories_like=men&icode={{icode}} HTTP/1.1
+
+###
+GET {{host}}/products?categories_like=men&icode={{icode}} HTTP/1.1
+
+###
+GET {{host}}/productVariants?_expand=product&_embed=productVariantImages&icode={{icode}} HTTP/1.1
+
+###
+GET {{host}}/profile?icode={{icode}} HTTP/1.1
+
+
+
+

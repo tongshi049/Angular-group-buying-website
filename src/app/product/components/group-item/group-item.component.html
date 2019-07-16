@@ -1,0 +1,11 @@
+<div class="container">
+  <img appAvatar appAvatarSize="2rem" [src]="order.avatar" alt="" >
+  <div class="username">{{ order.startBy }}</div>
+  <div class="count-down">
+    <div>
+      Need<span class="remaining-number">{{order.remainingNumber}}</span> more people to finish the order
+    </div>
+    <app-count-down [startDate]="startDate" [futureDate]="futureDate"></app-count-down>
+  </div>
+  <button type="button" class="group-button">Buy it.</button>
+</div>

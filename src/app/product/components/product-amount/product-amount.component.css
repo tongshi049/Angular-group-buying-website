@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button {
+    background-color: lightgray;
+}
+
+.button img {
+    object-fit: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.count {
+    margin: 0 0.5rem;
+    width: 2rem;
+    text-align: center;
+}

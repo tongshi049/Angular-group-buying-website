@@ -1,0 +1,71 @@
+<app-back-button></app-back-button>
+<ng-container *ngIf="variants$ | async as productVariants">
+    <app-image-slider
+        [sliders]="productVariants[selectedIndex].productVariantImages"
+        [sliderHeight]="'22rem'"
+        [intervalBySeconds]="0"
+    >
+    </app-image-slider>    
+    <div class="price-section">
+        <div class="now-price">
+            {{ productVariants[selectedIndex].price | currency }}
+        </div>
+        <div class="list-price">
+            {{ productVariants[selectedIndex].listPrice | currency }}
+        </div>
+        <div class="sales-count">
+            {{ productVariants[selectedIndex].product.priceDesc }}
+        </div>
+        <div class="title">
+            {{ productVariants[selectedIndex].name }}
+        </div>  
+        <div class="coupon">
+            <span 
+                appTag [tagBgColor]="'#e02f29'"
+                [tagColor]="'white'"
+                [tagSize]="'1rem'"
+                [tagPadding]="'2px 10px'"
+                [tagRadius]="'5px'"
+            >Cash Back</span>
+            <span>
+                Buy 4 get 1 free.
+            </span>
+        </div>
+        <div class="guarantee">
+            <span>Free shipping</span>
+            <span>·</span>
+            <span>7 days exchanged</span>
+            <span>·</span>
+            <span>48 hours on delivery</span>
+            <span>·</span>
+            <span>False one compensate ten</span>
+        </div>
+    </div>
+    <app-group-short-list class="group-short-list"></app-group-short-list>
+
+    <div class="toolbar">
+        <div class="icon-button">
+          <img src="/assets/icons/more.png" alt="" />
+          <div>More</div>
+        </div>
+        <div class="icon-button">
+          <img src="/assets/icons/favorite.png" alt="" />
+          <div>Like</div>
+        </div>
+        <div class="icon-button">
+          <img src="/assets/icons/customer-service.png" alt="" />
+          <div>Service</div>
+        </div>
+        <div class="direct-buy" (click)="handleDirectBuy(productVariants)">
+          <div>
+            {{ productVariants[selectedIndex].listPrice | currency }}
+          </div>
+          <div>Buy-One-Click</div>
+        </div>
+        <div class="group-buy" (click)="handleGroupBuy(productVariants)">
+          <div>{{ productVariants[selectedIndex].price | currency }}</div>
+          <div>Start a group-buy</div>
+        </div>
+    </div>
+
+</ng-container>

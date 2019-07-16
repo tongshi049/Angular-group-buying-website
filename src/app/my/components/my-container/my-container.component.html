@@ -1,0 +1,55 @@
+<div class="container">
+  <ng-container *ngIf="profile$ | async as profile">
+    <div class="my-info" (click)="showProfile()">
+      <img
+        appAvatar
+        avatarSize="5rem"
+        [src]="profile.avatar"
+        alt=""
+        class="my-avatar"
+      />
+      <div class="my-name">
+        {{ profile.name }} <img src="assets/icons/wechat.png" alt="" />
+      </div>
+      <div class="my-badge">
+        Badges Wall <img src="assets/icons/navigate_next.png" alt="" />
+      </div>
+      <div class="my-cashback">
+        <span><img src="assets/icons/cashback.png" alt="" /> Cash Bach</span>
+      </div>
+      <div class="my-membership">
+        <span><img src="assets/icons/membership.png" alt="" /> Membership</span>
+      </div>
+    </div>
+    <div class="brand">
+      <span class="title">Hot Deals</span>
+      <span class="detail">On Sale</span>
+      <img src="assets/icons/navigate_next.png" alt="" />
+    </div>
+    <div class="order-status">
+      <div class="title">
+       My Orders<span
+          >View All<img src="assets/icons/navigate_next.png" alt=""
+        /></span>
+      </div>
+      <app-horizontal-grid [displayCols]="5" [cols]="5">
+        <span appGridItem *ngFor="let item of orderItems; let idx = index">
+          <img [appGridItemImage]="'2rem'" [src]="item.icon" />
+          <span [appGridItemTitle]="'0.8rem'" class="title">{{
+            item.title
+          }}</span>
+        </span>
+      </app-horizontal-grid>
+    </div>
+    <div class="tools">
+      <app-horizontal-grid [displayCols]="5" [cols]="5">
+        <span appGridItem *ngFor="let item of toolsItems; let idx = index">
+          <img [appGridItemImage]="'2rem'" [src]="item.icon" />
+          <span [appGridItemTitle]="'0.8rem'" class="title">{{
+            item.title
+          }}</span>
+        </span>
+      </app-horizontal-grid>
+    </div>
+  </ng-container>
+</div>

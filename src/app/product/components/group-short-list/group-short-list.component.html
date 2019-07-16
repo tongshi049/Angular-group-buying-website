@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="title">
+    <span>{{ groupOrders.length }} people have bought it</span>
+    <span><img src="assets/icons/navigate_next.png"></span>
+  </div>
+  <app-group-item *ngFor="let order of groupOrders"
+    [order]="order">
+  </app-group-item>
+</div>
