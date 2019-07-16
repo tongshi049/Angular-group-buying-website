@@ -68,7 +68,7 @@ If you are also interested in Angular like me, just don't miss this project. It 
 ```
 npm install
 ``` 
-- Launch development server, and open localhost:4200 in your browser
+- Launch development server, and open `localhost:4200` in your browser
 ```
 ng s
 ```
