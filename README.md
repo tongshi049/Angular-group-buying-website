@@ -4,7 +4,7 @@
 
 #
 If you are also interested in Angular like me, just don't miss this project. It is a good start-up to get into Angular. You can fork this project and I appreciate your star.
-[Find more in my blog.](https://tongshi049.github.io/)
+[Find more in my blog.](https://tongshi049.github.io/2019/06/18/angular/)
 
 #
 
