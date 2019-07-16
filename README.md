@@ -64,13 +64,18 @@ If you are also interested in Angular like me, just don't miss this project. It 
 
 ## Getting Started
 
-- Go the project folder and install dependencies
+- Clone the project and go to the project foloder
+```
+git clone https://github.com/tongshi049/group-buying-website.git
+cd group-buying-website
+```
+- Install dependencies in project folder
 ```
 npm install
 ``` 
 - Launch development server, and open `localhost:4200` in your browser
 ```
-ng s
+ng serve
 ```
 
 #
