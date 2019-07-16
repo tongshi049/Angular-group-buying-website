@@ -11,7 +11,6 @@ If you are also interested in Angular like me, just don't miss this project. It 
 ## Overview
 
 - Designing multiple Angular ***Modules***, ***Components***, ***Routers***, ***Services***, as well as customized ***Directives***, ***Pipes***.
-![project_conclusion]('./readme_images/project_conclusion.png')
 - Using ***rxjs*** to deat with asynchronous codes. 
 - ***Mobile***, ***Flex & Grid layout***, ***Responsive Design***, ***Observer & Observable***.
 
