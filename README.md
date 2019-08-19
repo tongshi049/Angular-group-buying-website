@@ -1,6 +1,6 @@
 # group-buying-website
 
-**The front-end of a group-buying website built with Angular.**
+**Design the front-end of a group-buying website using Angular.**
 
 #
 If you are also interested in Angular like me, just don't miss this project. It is a good start-up to get into Angular. You can fork this project and I appreciate your star.
@@ -10,9 +10,9 @@ If you are also interested in Angular like me, just don't miss this project. It 
 
 ## Overview
 
-- Designing multiple Angular ***Modules***, ***Components***, ***Routers***, ***Services***, as well as customized ***Directives***, ***Pipes***.
-- Using ***rxjs*** to deat with asynchronous codes. 
-- ***Mobile***, ***Flex & Grid layout***, ***Responsive Design***, ***Observer & Observable***.
+- Designs multiple Angular ***Modules***, ***Components***, ***Routers***, ***Services***, as well as customized ***Directives***, ***Pipes***.
+- Uses ***rxjs*** to deal with asynchronous codes. 
+- Uses ***Mobile***, ***Flex & Grid layout***, ***Responsive Design***, ***Observer & Observable*** design patterns.
 
 #
 
