@@ -66,7 +66,7 @@ If you are also interested in Angular like me, just don't miss this project. It 
 
 - Clone the project and go to the project foloder
 ```
-git clone https://github.com/tongshi049/group-buying-website.git
+git clone https://github.com/tongshi049/Angular-group-buying-website.git
 cd group-buying-website
 ```
 - Install dependencies in project folder
