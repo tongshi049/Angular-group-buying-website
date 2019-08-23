@@ -1,4 +1,4 @@
-# group-buying-website
+# Angular-group-buying-website
 
 **Design the front-end of a group-buying website using Angular.**
 
@@ -11,8 +11,8 @@ If you are also interested in Angular like me, just don't miss this project. It 
 ## Overview
 
 - Designs multiple Angular ***Modules***, ***Components***, ***Routers***, ***Services***, as well as customized ***Directives***, ***Pipes***.
-- Uses ***rxjs*** to deal with asynchronous codes. 
-- Uses ***Mobile***, ***Flex & Grid layout***, ***Responsive Design***, ***Observer & Observable*** design patterns.
+- Utilizes ***rxjs*** to deal with asynchronous codes. 
+- Multiple design patterns such as ***Mobile***, ***Flex & Grid layout***, ***Responsive Design***, ***Observer & Observable*** are utilized to enable the automatic adaption of this app to different screen sizes.
 
 #
 
